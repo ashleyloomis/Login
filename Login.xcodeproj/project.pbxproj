@@ -12,6 +12,7 @@
 		DF05D57B2229ECB300F02731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF05D5792229ECB300F02731 /* Main.storyboard */; };
 		DF05D57D2229ECB400F02731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF05D57C2229ECB400F02731 /* Assets.xcassets */; };
 		DF05D5802229ECB400F02731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF05D57E2229ECB400F02731 /* LaunchScreen.storyboard */; };
+		DF05D588222AE6F300F02731 /* SuccessfulLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05D587222AE6F300F02731 /* SuccessfulLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DF05D57C2229ECB400F02731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF05D57F2229ECB400F02731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF05D5812229ECB400F02731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF05D587222AE6F300F02731 /* SuccessfulLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessfulLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DF05D5752229ECB300F02731 /* AppDelegate.swift */,
 				DF05D5772229ECB300F02731 /* ViewController.swift */,
+				DF05D587222AE6F300F02731 /* SuccessfulLoginViewController.swift */,
 				DF05D5792229ECB300F02731 /* Main.storyboard */,
 				DF05D57C2229ECB400F02731 /* Assets.xcassets */,
 				DF05D57E2229ECB400F02731 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				DF05D5782229ECB300F02731 /* ViewController.swift in Sources */,
 				DF05D5762229ECB300F02731 /* AppDelegate.swift in Sources */,
+				DF05D588222AE6F300F02731 /* SuccessfulLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

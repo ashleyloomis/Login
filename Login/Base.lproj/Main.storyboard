@@ -64,6 +64,7 @@
                     <connections>
                         <outlet property="forgotPasswordButton" destination="Idu-B4-Yvf" id="Xda-bU-omC"/>
                         <outlet property="forgotUserNameButton" destination="DMY-Eu-xaW" id="rKB-r7-Ip2"/>
+                        <outlet property="passwordTextField" destination="o3t-lv-jtN" id="NUg-3c-fK5"/>
                         <outlet property="usernameTextField" destination="pZK-td-glf" id="MPr-Aq-2Vj"/>
                         <segue destination="5Xg-mP-fNL" kind="show" identifier="ForgottenUsernameOrPassword" id="qoO-Il-O3G"/>
                     </connections>
@@ -72,20 +73,32 @@
             </objects>
             <point key="canvasLocation" x="988" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Successful Login View Controller-->
         <scene sceneID="koY-7J-fXd">
             <objects>
-                <viewController id="5Xg-mP-fNL" sceneMemberID="viewController">
+                <viewController id="5Xg-mP-fNL" customClass="SuccessfulLoginViewController" customModule="Login" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8wq-UT-ePN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username Placeholder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4G-FT-Sfv">
+                                <rect key="frame" x="89" y="199" width="197" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="izr-nA-zR4"/>
                     </view>
+                    <connections>
+                        <outlet property="successLabel" destination="g4G-FT-Sfv" id="Egt-uG-QSN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh6-Gy-IWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1828" y="134"/>
+            <point key="canvasLocation" x="1828" y="133.5832083958021"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dVg-Sa-uaM">
@@ -107,6 +120,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bGI-pN-xil"/>
+        <segue reference="qoO-Il-O3G"/>
     </inferredMetricsTieBreakers>
 </document>
